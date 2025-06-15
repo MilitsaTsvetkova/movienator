@@ -99,7 +99,7 @@ const Search = () => {
             <View className="mt-10 px-5">
               <Text className=" text-center text-gray-500">
                 {searchQuery.trim()
-                  ? "No movies found"
+                  ? "No movies found for this search: "
                   : "Start typing to search for movies"}
                 <Text className="text-accent">{searchQuery}</Text>
               </Text>
